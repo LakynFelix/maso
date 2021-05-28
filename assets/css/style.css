@@ -1,16 +1,16 @@
+/* Body */
+
 * {
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
-   
+    padding: 0; 
 }
-
-/* Body */
 
 body {
     background-color: #d9dcd6;
 }
- 
+ /* Body End */
+
 /* Header */
 
 .header {
@@ -44,7 +44,6 @@ body {
     color: #d9dcd6;
 }
 
-
 a {
     color: #ffffff;
     text-decoration: none;
@@ -54,6 +53,8 @@ p {
     font-size: 16px;
 }
 
+/* Header End */
+
 /* Hero Section */
 
 .content {
@@ -61,17 +62,14 @@ p {
     margin-left: 20px;
     width: 75%;
 }
-
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
 .hero {
     height: 800px;
     background-image: url("../images/digital-marketing-meeting.jpg");
@@ -85,15 +83,13 @@ p {
 /* Benifits Section*/
 
 .benefits {
-    
     background-color: #2589bd;
     clear: both;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-right: 20px;
     padding: 20px;
-    width: 20%;
-    
+    width: 20%;    
 }
 
 .benefit-brand , .benefit-cost ,.benefit-lead {
