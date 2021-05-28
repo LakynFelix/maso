@@ -4,28 +4,21 @@
     padding: 0;
    
 }
+
 /* Body */
+
 body {
     background-color: #d9dcd6;
 }
-  /* Header */
+ 
+/* Header */
+
 .header {
     background-color: #2a607c;
     color: #ffffff;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 20px;
     
-}
-
-.header h1 {
-    color: #d9dcd6;
-    display: inline-block;
-    font-size: 48px;
-    
-}
-
-.header h1 .seo {
-    color: #d9dcd6;
 }
 
 .header div {
@@ -42,6 +35,18 @@ body {
     list-style-type: none;
 }
 
+.header h1 {
+    color: #d9dcd6;
+    display: inline-block;
+    font-size: 48px;
+    
+}
+
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+
 a {
     color: #ffffff;
     text-decoration: none;
@@ -53,13 +58,10 @@ p {
 
 /* Hero Section */
 
-.hero {
-    height: 800px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
-     margin-bottom: 25px;
-     width: 100%;
+.content {
+    display: inline-block;
+    margin-left: 20px;
+    width: 75%;
 }
 
 .float-left {
@@ -72,10 +74,13 @@ p {
     margin-left: 25px;
 }
 
-.content {
-    display: inline-block;
-    margin-left: 20px;
-    width: 75%;
+.hero {
+    height: 800px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+     margin-bottom: 25px;
+     width: 100%;
 }
 
 /* Benifits Section*/
@@ -118,16 +123,15 @@ p {
     
 }
 
-.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
-    max-height: 200px;
-}
-
 .search-engine-optimization h2,.online-reputation-management h2 , 
 .social-media-marketing h2 {
     font-size: 36px;
     margin-bottom: 20px;
 }
 
+.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
+    max-height: 200px;
+}
 
 /* Footer */
 
