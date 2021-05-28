@@ -34,14 +34,10 @@ body {
     list-style-type: none;
 }
 
-.header h1 {
+.header h1 , .header h1 .seo {
     color: #d9dcd6;
     display: inline-block;
     font-size: 48px;  
-}
-
-.header h1 .seo {
-    color: #d9dcd6;
 }
 
 a {
@@ -49,13 +45,9 @@ a {
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
-
 /* Header End */
 
-/* Hero Section */
+/* Main Content */
 
 .content {
     display: inline-block;
@@ -70,6 +62,9 @@ p {
     float: right;
     margin-left: 25px;
 }
+
+/* Hero Section */
+
 .hero {
     height: 800px;
     background-image: url("../images/digital-marketing-meeting.jpg");
